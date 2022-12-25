@@ -1,3 +1,21 @@
+#' Spider sharts
+#'
+#' @param df Incoming `data.frame`. If `NULL` then function provides an example.
+#' @param top Maximum of radial scale.
+#' @param subdivisions Number of internal sections on scale.
+#' @param zero_shift Central shift from zero for getting more beauty central empty space.
+#' @param label_shift Labels' shift out for more clear reading. 
+#' @param scale_shist Shift 
+#' @param webtype 
+#' @param flexure 
+#' @param need_label 
+#' @param need_scale 
+#' @param need_web 
+#'
+#' @return
+#' @export
+#'
+#' @examples
 ff <- function(df = NULL, 
                top = NULL, 
                subdivisions = 4, # manual
@@ -36,7 +54,7 @@ ff <- function(df = NULL,
         pivot_longer(names_to = "lab", values_to = "L", -id) %>% 
         mutate(i = 0:(nrow(.)-1), 
             M = L + max(L)/3, 
-            L = L +zero_shift,
+            L = L + zero_shift,
             x = L*cos(pi/2-AL*i), 
             y = L*sin(pi/2-AL*i)) 
 
