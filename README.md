@@ -1,6 +1,9 @@
 # Spider charts
 
-The function aim is to illustratre multivariate data as Spider chart diagram. 
+The function aim is to illustratre multivariate data as Spider chart diagrams. 
+Функция предназначена для визуализации многомерных данных в виде лепестковых диаграмм (Spider charts).
+
+<img src="https://raw.githubusercontent.com/ANSozontov/spider_charts/main/example.svg">
 
 [![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
 
