@@ -11,6 +11,11 @@
 ``` r
 devtools::source_url("https://raw.github.com/ANSozontov/spider_charts/master/spider_charts.R")
 ```
+or
+``` r
+source("https://raw.github.com/ANSozontov/spider_charts/master/spider_charts.R")
+```
+
 
 ## Example 
 
