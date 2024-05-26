@@ -2,7 +2,7 @@
 
 **Citation:** Sozontov A.N. Illustratre your multivariate data compose through the spider chart diagrams over ggplot2. URL: https://github.com/ANSozontov/SpiderCharts
 
-[![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
+[![CC BY 4.0][cc-by-shield]][cc-by]
 
 Функция предназначена для визуализации многомерных данных в виде лепестковых диаграмм (Spider charts).
 
