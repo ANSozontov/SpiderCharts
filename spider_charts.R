@@ -110,8 +110,8 @@ spiderchart <- function(df = NULL,
       {if(need_scale) # scale
         geom_text(aes(x, y, label = L), data = G3)
       } +
-      geom_polygon(aes(x, y, color = id, fill = id), data = df, alpha = 0.5) + # polygons
-      geom_point(aes(x, y, color = id, fill = id), data = df) + # peaks
+      geom_polygon(aes(x, y, color = id, fill = id, linetype = id), data = df, alpha = 0.5) + # polygons
+      geom_point(aes(x, y, color = id, fill = id, shape = id), data = df) + # peaks
       {if(need_label) # peak labels
         geom_text(aes(x, y, label = lb), data = G4, size = label_size)
       } + 
